@@ -18,6 +18,10 @@ int main()
  
     char ch[] = "abcd" ; // size is 5 
     cout << sizeof(ch) << endl;
+    cout << sizeof(ch) / sizeof(char) << endl;
+    cout << sizeof(a) << endl ;
+    cout << sizeof(a) / sizeof(int) << endl;
+
 
 
 
